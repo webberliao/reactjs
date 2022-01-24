@@ -4,10 +4,24 @@ import React, { Component } from 'react';
 import Progress from './progress/Progress';
 
 class App extends Component{ //繼承Component類別
+  constructor(props){
+    super(props);
+    this.btnName = "BtnName";
+    this.changeName=this.changeName.bind(this);
+  }
+
+  changeName(){
+    this.btnName = this.props.newName;
+    console.log("hey");
+  }
+
   render(){
     return(
       <div>
-        helloWorld
+        <a> helloWorld </a> <br></br>
+        <button onClick={this.changeName}> {this.btnName} </button><br></br>
+        { Progress } <br></br>
+        <button onClick={this.changePercent}>轉換百分比 </button>
       </div>
     );
   }

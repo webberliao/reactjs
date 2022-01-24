@@ -33,7 +33,7 @@ ReactDOM.render(
     <div id="chged"></div>
     
     { multiButton }*/}
-    <App></App>
+    <App newName="Webber"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
