@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import FuncComp from './FuncComp'
+import Test from './Test'
 import reportWebVitals from './reportWebVitals';
 
 const printMsg=()=>{
@@ -33,7 +35,9 @@ ReactDOM.render(
     <div id="chged"></div>
     
     { multiButton }*/}
-    <App newName="Webber"/>
+    { /* <App newName="Webber"/> */}
+    {/* <FuncComp /> */}
+    <Test />
   </React.StrictMode>,
   document.getElementById('root')
 );
