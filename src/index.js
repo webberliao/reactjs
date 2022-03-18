@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import FuncComp from './FuncComp'
 import Test from './Test'
 import reportWebVitals from './reportWebVitals';
 
@@ -29,15 +28,7 @@ const multiButton=()=>{
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App name="Webber" color="grey" number={100} status={true} handleClick={printMsg}>
-      Say Something
-    </App>
-    <div id="chged"></div>
-    
-    { multiButton }*/}
-    { /* <App newName="Webber"/> */}
-    {/* <FuncComp /> */}
-    <Test />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
