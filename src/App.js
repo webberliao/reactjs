@@ -12,7 +12,7 @@ class App extends Component{ // 繼承Component類別
     return (
       <div className="App">
         <h1>Hello</h1>
-        <h2>101</h2>
+        <h2>102</h2>
         <h3>Hello</h3>
         <Header />
     	</div>
